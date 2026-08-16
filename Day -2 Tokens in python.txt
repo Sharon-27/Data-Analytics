@@ -1,0 +1,141 @@
+Tokens
+-----> Tokens are the small unit in the python..
+
+1. Identifiers:-
+---> Defnition: Identifier is a name of variable or function or class
+*Variable
+EXAMPLE:- 
+num = 'python'
+print (type(num))
+
+*Functions
+Example:- 
+def add_(a,b):
+    print(a+b)
+add_(4,5)
+
+*Class
+Example:-
+class
+class details:
+    pass
+
+per_1 = details
+
+
+
+2. Keywords
+---> Definition:- Keywords are already saved in python for an specificied reason to run..
+Example:- 
+-->
+if
+else
+for
+while
+return
+print
+
+
+3.Literals (Data types)
+-----> Defnition:- Literals are the Data types that need to be store in variables
+Example:-
+num = 90
+name = 'teja'
+
+
+4.Operator(+, -, =, *, /)
+----->
+
+5. Statements
+------> statements are the instructions given to the program 
+Example:-
+
+num = 90
+'''
+age = 20
+if age >= 18:
+   print(age)
+
+
+6. Comments:-
+-----> once comments are open the lines inside will never execute in python file
+
+Two types:- 1. Single line comment (#)
+            2. Multi - line comment('''  ''',  '' '' ''   '' ''  '')
+
+
+1.Single line comment:- Used to comment only one line
+
+Example:-
+
+age = 20
+if age >= 18:  #this check age is grater or equal
+    print(age)
+ 
+
+2. Multi - line comment('''  ''',  '' '' ''   '' ''  '')
+---------> used to comment more than one line
+
+
+----> Variable rules:-
+ Bad ways:- 
+** Don't use number at 1st position
+** can't use special char anywhere
+** can't use space
+** keywords
+
+Example:-
+2num = 90
+$num = 89
+n num =78
+if = 67
+
+Good ways:-
+** small letters and capital letters , (_) underscore
+
+Example:-
+nUm_1 = 90
+Num_2 = 78
+teja_garikapati = 90
+
+a = {'name': 'teja',
+      'AC_num': '44567890987654'}
+
+b = { 'name': 'garikapati',
+      'AC_num' : '44567890987690'}
+
+c = { 'name':'chowdary'
+      'AC_num': '44567890987678'}
+
+SBI_teja_details = {'name":'teja',
+      'Ac_num' : '44567890987654'}
+
+ICIC_garikapati_details = {'name':'teja',
+     'AC_num' : '4456790987654'
+
+num = 90
+print(num)
+
+num-3, num_2 = 56,89
+print(num-3)
+print(num_2)
+
+---->> Swapping of two variables:-
+
+
+
+a , b = 45, 67
+print('a=', a)
+print('b=',b)
+a, b, = b, a
+print('a=',a)
+print('b=',b)
+
+
+
+
+
+
+
+
+
