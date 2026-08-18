@@ -1,0 +1,127 @@
+'''
+Operators
+Defnitio The operators are used to perform operations in variables and the values
+Types of operators
+Arthematic operator
+Assignment operator
+comparision operator
+logical operator
+Identity operator
+membership operator
+Bitwise operator
+concationations
+The + symbol will behave two ways for numeric it works normally and for other datatypes like string,list,tuple it concatination
+Arthemetic operator:- +,-,*,/,//
+
+num = 90
+num_2 =7
+print(num + num_2)
+
+--->Sub:-
+a = 9
+b =7
+print(a-b)
+
+--->Mul:-
+v = 8
+n = 4
+print(v * n)
+
+--> Div:-
+v = 8
+n = 4
+print(v / n)
+
+-->floor div:-
+v = 8
+n = 4
+print(v // n)
+
+-->Modules:-
+v = 8
+n = 4
+print(v % n)
+
+2. Assignment operator:-
+----> =,+=,-=,*=,%=,/=
+
++=--> is increment operator
+a = 0
+print(a)
+a += 1
+print(a)
+
+--> -=--> is decrement operator
+a = 5
+b = 2
+print(a -= 2)
+
+
+
+
+
+---> *=-->
+c = 7
+c *= 2
+print(c)
+--> /=-->
+
+a = 2
+b = 4
+a /= b
+print(a/b)
+
+---> Comparison operator:- ==, >=, <=,!=
+
+num = 9
+num_2 =5
+print(num == num_2)# 9 ==5
+print(num != num_2)# 9 !=5
+print(num >= num_2)# 9 >=5
+print(num <= num_2)# 9 <=5
+
+Example:-
+num = 10
+num_2 = 9
+print(num >= num_2)
+print(num <= num_2)
+
+---> Logical operator----> and, or, not
+---> And operator:- ( Example)
+num = 10
+num_2 = 13
+print(num >= num_2 and num <= 10)# 9 >= 13 and 9 <= 10
+print(num <= num_2 and num <= 10)# 9 <= 13 and 9 >= 10
+
+----> Identity operator:- is, is not
+Example:-
+a = [1,2]
+b = [1,2]
+print(id(a))
+print(id(b))
+print(a is not b)
+
+--->Membership operator:- in or not :-
+Example for In:-
+a = 'python'
+print( 'y' in a)
+
+Example for Not in:-
+a = 'python'
+print( 'R' in a)
+
+
+
+
+
+
+
+
+
+
+'''
+a = 'python'
+print( 'R' not in a)
+
+
+
