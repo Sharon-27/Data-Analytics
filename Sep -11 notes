@@ -1,0 +1,19 @@
+'''
+---
+
+print("Hello Good morning")
+#perform operation as below
+a = 15
+b = 25
+print(a+b)
+'''
+
+#Tokens --> Keywords,variables,operators,punctuators,[],(),{}
+#variable should not start with number,space,symbolss and also no space between words
+
+batch = ['PFS-6','DA-6']
+print(batch)
+print(type(batch))
+#len()--->  returns the number of items in a collection
+
+print(len(batch))
